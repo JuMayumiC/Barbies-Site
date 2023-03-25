@@ -93,6 +93,13 @@ line-height: 39px;
     display: flex;
 }
 
+.submenu a {
+    text-decoration: none;
+    color: #5c3b5c;
+    
+
+}
+
 .submenu {
     display: block;
   }
@@ -118,7 +125,7 @@ line-height: 39px;
 
   }
 
-  .escola{
+  .projeto{
    
     color:rgb(0, 0, 0);
    display: block;
@@ -128,7 +135,7 @@ line-height: 39px;
     margin: 10px;
 }
 
-.escola-titulo {
+.projeto-titulo {
     margin-left: 0;
     width: 576px;
     height: 58px;
@@ -142,7 +149,7 @@ line-height: 39px;
 }
 
 
-    .escola-imagem {
+    .projeto-imagem {
      width: 200px;
     height: 200px;
     float: right;
