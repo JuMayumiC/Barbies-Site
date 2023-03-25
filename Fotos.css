@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #EC6397;
+
+}
+
+
+header {
+    
+    color: #350435;
+    
+}
+
+.icone {
+   
+    width: 223px;
+    height: 223px;
+    float: right;
+    
+    
+}
+
+.cabecalho {
+
+    color: #5c3b5c;
+    text-shadow: #350435 1px 1px 1px;
+     display:flex; 
+     justify-content: space-around;
+    padding: 0px 0;
+    }
+
+ .cabecalho h1 {
+        margin-left: 0px;
+        text-align: justify;
+    }
+    
+
+    
+    
+
+    
+
+.c1 {
+    display: flex; 
+    margin: 0 0px; 
+    padding: 0px 0; 
+    font-size: 24px;
+    list-style: none;
+    position: absolute;
+    
+   
+    
+}
+
+.c2 {
+
+width: 115px;
+height: 28px;
+left: 901px;
+top: 4px;
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+
+}
+
+.c2 a {
+    text-decoration: none;
+    color: #5c3b5c;
+}
+
+.c3 {
+display: inline-block;   
+width: 115px;
+height: 28px;
+left: 1092px;
+top: 4px;
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+
+}
+
+.c3 a {
+    text-decoration: none;
+    color: #5c3b5c;
+}
+
+
+.projeto  {
+    list-style: none;
+    display: flex;
+}
+
+.projeto h2 {
+    background-color: #E2A9EB;
+}
+
+.equipe {
+    list-style: none;
+    display: flex;
+}
+
+.equipe h2 {
+    background-color: #E2A9EB;
+}
+
+
+  
+  hr {
+    border: none;
+    height: 1px;
+    background-color: rgb(116, 5, 70);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+
+  }
+  .rodape{
+    background-color: black;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 12px;
+    margin: 12px;
+
+}

@@ -28,7 +28,7 @@ header {
     text-shadow: #350435 1px 1px 1px;
      display:flex; 
      justify-content: space-around;
-    padding: 15px 0;
+    padding: 0px 0;
     }
 
  .cabecalho h1 {
@@ -44,11 +44,12 @@ header {
 
 .c1 {
     display: flex; 
-    margin: 0 16px; 
-    padding: 24px 0; 
+    margin: 0 0px; 
+    padding: 0px 0; 
     font-size: 24px;
     list-style: none;
     position: absolute;
+    
    
     
 }
@@ -65,6 +66,12 @@ font-style: normal;
 font-weight: 400;
 font-size: 32px;
 line-height: 39px;
+
+}
+
+.c2 a {
+    text-decoration: none;
+    color: #5c3b5c;
 }
 
 .c3 {
@@ -81,6 +88,10 @@ font-size: 32px;
 line-height: 39px;
 
 }
+.c3 a {
+    text-decoration: none;
+    color: #5c3b5c;
+}
 
 
 .projeto  {
@@ -88,9 +99,17 @@ line-height: 39px;
     display: flex;
 }
 
+.projeto h2 {
+    background-color: #E2A9EB;
+}
+
 .equipe {
     list-style: none;
     display: flex;
+}
+
+.equipe h2 {
+    background-color: #E2A9EB;
 }
 
 .submenu a {
@@ -157,7 +176,7 @@ line-height: 39px;
 
     }
 
-    .Equipe {
+    .equipe {
         color:rgb(0, 0, 0);
     display: block;
     
@@ -186,12 +205,16 @@ line-height: 39px;
 
 
     }
+
+    .equipe-div {
+        text-align: center;
+    }
   
     .equipe-imagem {
         width: 200px;
     }
 
-    .equipe-div {
+    .name {
         text-align: center;
        
     }
