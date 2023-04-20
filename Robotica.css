@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 5px;
     padding: 0;
     font-family: 'Poppins', sans-serif;
     background-color: #e94499;
@@ -124,8 +124,8 @@ line-height: 39px;
     
 
   }
-  .rodape{
-    background-color: black;
+  
+.rodape{
     text-align: center;
 }
 
