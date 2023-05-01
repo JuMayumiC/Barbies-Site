@@ -36,11 +36,15 @@ header {
         text-align: justify;
     }
     
-
+    .cabecalho h1 a {
+        color:#5c3b5c;
+        text-decoration: none;
+    }
     
-    
-
-    
+  .c1 li a:hover {
+    color:#E2A9EB;
+  
+  }    
 
 .c1 {
     display: flex; 
@@ -229,4 +233,14 @@ line-height: 39px;
         padding: 12px 12px;
         margin: 12px;
     
+    }
+
+    .rodape a:hover {
+        text-decoration: none;
+        color: #5c3b5c;
+        }
+
+    .rodape a {
+        text-decoration: none;
+        color: #000000;
     }
