@@ -20,6 +20,10 @@ header {
     
 }
 
+.icone a {
+    text-decoration: none;
+}
+
 .cabecalho {
 
     color: #5c3b5c;
@@ -183,49 +187,7 @@ line-height: 39px;
 
     }
 
-    .equipe {
-        color:rgb(0, 0, 0);
-    display: block;
-    
-    
-    padding: 0px ;
-    margin: 15px;
-    }
 
-    .equipe-titulo {
-        margin-left: 0;
-        width: 576px;
-        height: 58px;
-        left: 59px;
-        top: 276px;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 45px;
-        line-height: 54px;
-        color: #000000;
-    }
-
-    .equipe-toda {
-        display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
-        
-
-
-    }
-
-    .equipe-div {
-        text-align: center;
-    }
-  
-    .equipe-imagem {
-        width: 200px;
-        padding-top: 10px;
-    }
-
-    .name {
-        text-align: center;
-       
-    }
 
     .projeto1 h2 {
         background-color: #E2A9EB;
