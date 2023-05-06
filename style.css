@@ -47,19 +47,20 @@ header {
   }    
 
 .c1 {
-    display: flex; 
+    display: flex;
     margin: 0 0px; 
     padding: 0px 0; 
-    font-size: 24px;
+   
     list-style: none;
     position: relative;
+    justify-content: space-around;
     
    
     
 }
 
-.c2 {
-
+.c2 {   
+display: inline-block;
 width: 115px;
 height: 28px;
 left: 901px;
@@ -68,34 +69,19 @@ top: 4px;
 
 font-style: normal;
 font-weight: 400;
-font-size: 32px;
+font-size: 25px;
 line-height: 39px;
 
 }
+
+
 
 .c2 a {
     text-decoration: none;
     color: #5c3b5c;
 }
 
-.c3 {
-display: inline-block;   
-width: 115px;
-height: 28px;
-left: 1092px;
-top: 4px;
 
-
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 39px;
-
-}
-.c3 a {
-    text-decoration: none;
-    color: #5c3b5c;
-}
 
 
 .projeto  {
@@ -134,7 +120,7 @@ line-height: 39px;
   }
   
   .submenu li {
-    font-size: 24px;
+    font-size: 20px;
     margin: 8px 0;
   }
   
