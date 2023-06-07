@@ -236,6 +236,7 @@ line-height: 39px;
 
 .forms-div {
     margin-top: 20px;
+    display: block;
 }
 
 .forms label {
@@ -267,8 +268,10 @@ line-height: 39px;
 }
 
 .forms input[type="submit"]:hover {
-    background-color: #d80f70;
+    background-color: #ff3a99;
 }
+
+
 
 
     .rodape{

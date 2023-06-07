@@ -104,15 +104,25 @@
 <section id="forms" class="forms">
     <h2 class="forms-titulo">Contato</h2>
     <div class="forms-div">
-    <form action="enviar.php" method="post">
-        <label for="nome">Nome:</label>
-        <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email" placeholder="Digite seu email" required>
-        <label for="mensagem">Mensagem:</label>
-        <textarea name="mensagem" id="mensagem" placeholder="Digite sua mensagem" required></textarea>
-        <input type="submit" value="Enviar">
-    </form>
+        <form action="enviar.php" method="post">
+            <div class="input-group">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+            </div>
+            <div class="input-group">
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" placeholder="Digite sua mensagem" required></textarea>
+            </div>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    
+</section>
+
 
 <hr>
 <footer class="rodape">
