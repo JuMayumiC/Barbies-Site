@@ -157,17 +157,19 @@ line-height: 39px;
 
 
     .projeto-imagem {
-     width: 200px;
-    height: 200px;
-    float: right;
+     width: 200px;sz
+    height: 225px;
+    float: left;
+    margin-top: 50px;
 
 
     }
 
     table {
+        margin-right: 500px;
         border-collapse: collapse;
         margin-left: auto;
-        margin-right: auto;
+    
     }
     th, td {
         border: 1px solid black;
@@ -177,6 +179,7 @@ line-height: 39px;
 
   .dados {
    text-align: center;
+   margin-right: 175px;
   }
 
   
