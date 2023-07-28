@@ -222,12 +222,6 @@
         white-space: nowrap;
     }
 
-    * {
-        margin: 5px;
-        padding: 0;
-        font-family: 'Poppins', sans-serif;
-        background-color: #e94499;
-
     }
 
     .iframedocs {
