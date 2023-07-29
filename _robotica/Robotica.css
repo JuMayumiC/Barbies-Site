@@ -34,11 +34,11 @@ a#logo {
 }
 
 .cabecalho {
-    text-shadow: #350435 1px 1px 1px;
+    text-shadow: #f1005d 1px 1px 1px;
     display: flex;
     justify-content: space-between;
     padding: 0px 0;
-}
+  }
 
 .cabecalho h1 {
     margin-left: 0px;
@@ -55,25 +55,31 @@ a#logo {
     margin: auto 0px;
     padding: 0px 0;
     list-style: none;
-}
-
-.c1 li a:hover {
-    color: #e2a9eb;
-}
-
-.c2 {
+  }
+  
+  .c1 li a:hover {
+    color: #fdcce0;
+    text-shadow: #7c003e 3px 3px 0px;
+  }
+  
+  .c2 {
+    font-family: "MalibuBarbie", sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
+    font-weight: 500;
+    font-size: 30px;
     line-height: 39px;
-}
-
-.c2 a {
+  }
+  
+  .c2 a {
     text-decoration: none;
-    color: #5c3b5c;
+    color: #f6e7ecfe;
     padding: 0 15px;
-}
-
+  }
+  
+  .projeto {
+    list-style: none;
+    display: flex;
+  }
 
 
 
@@ -96,7 +102,7 @@ hr {
 
 .projeto-imagem {
     width: 200px;
-   margin-top: 60px;
+   margin-top: 0px;
     float: right;
 }
 
