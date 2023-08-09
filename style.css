@@ -333,8 +333,7 @@ hr {
   color: #000000;
 }
 
-.projeto-todo,
-.equipe-toda {
+.projeto-todo{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -361,4 +360,10 @@ hr {
 
 .rodape h3 {
   font-size: 18px;
+}
+
+@media screen and (max-width: 1222px) {
+  .equipe-toda{
+    display: block;
+  }
 }
