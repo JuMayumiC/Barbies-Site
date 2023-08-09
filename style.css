@@ -366,4 +366,7 @@ hr {
   .icone{
     display: none;
   }
+  .c1 {
+    flex-wrap: wrap;
+  }
 }
