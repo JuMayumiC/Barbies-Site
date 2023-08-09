@@ -362,8 +362,8 @@ hr {
   font-size: 18px;
 }
 
-@media screen and (max-width: 1222px) {
-  .equipe-toda{
-    display: block;
+@media screen and (max-width: 1321px) {
+  .icone{
+    display: none;
   }
 }
