@@ -79,7 +79,6 @@ a#logo {
 .slider {
   display: block;
   height: 293px;
-  width: 600px;
   margin: auto;
   margin-top: 0px;
   position: relative;
@@ -140,7 +139,7 @@ left: 100px;
 }
 
 .projeto {
-  list-style: none;
+  /* list-style: none; */
   display: flex;
 }
 
@@ -182,17 +181,15 @@ hr {
 }
 
 .projeto {
-  color: rgb(0, 0, 0);
+  /* color: rgb(0, 0, 0); */
   display: block;
-
   padding: 0px;
   margin: 10px;
 }
 
 .projeto-titulo {
   margin-left: 0;
-  width: 576px;
-  height: 58px;
+  /* height: 58px; */
   left: 59px;
   top: 276px;
   font-family: "MalibuBarbie", sans-serif;
@@ -220,8 +217,6 @@ hr {
 
 .equipe-titulo {
   margin-left: 0;
-  width: 576px;
-  height: 58px;
   left: 59px;
   top: 2px;
   font-family: "MalibuBarbie", sans-serif;
@@ -236,6 +231,7 @@ hr {
 .equipe-toda {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
+  justify-content: space-around;
 }
 
 .equipe-div {
@@ -260,8 +256,6 @@ hr {
 
 .forms-titulo {
   margin-left: 0;
-  width: 576px;
-  height: 58px;
   left: 59px;
   top: 276px;
   font-family: "MalibuBarbie", sans-serif;
@@ -367,6 +361,23 @@ hr {
     display: none;
   }
   .c1 {
+    flex-wrap: wrap;
+  }
+  
+}
+
+@media screen and (min-width: 600px) { 
+  .slider { width: 600px; } 
+    align-content: space-around;
+  }
+
+
+@media screen and (max-width: 600px) { 
+  .equipe-toda {
+    display: grid;
+    grid-template-columns: 100% ;
+  }
+  .cabecalho {
     flex-wrap: wrap;
   }
 }
