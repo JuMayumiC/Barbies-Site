@@ -36,7 +36,7 @@ a#logo {
 .cabecalho {
     text-shadow: #f1005d 1px 1px 1px;
     display: flex;
-    justify-content: space-between;
+    
     padding: 0px 0;
   }
 
@@ -77,7 +77,6 @@ a#logo {
   }
   
   .projeto {
-    list-style: none;
     display: flex;
   }
 
@@ -135,8 +134,6 @@ td {
 
 .projeto1-titulo {
     margin-left: 0;
-    width: 576px;
-    height: 58px;
     left: 59px;
     top: 276px;
     font-family: "MalibuBarbie", sans-serif;
@@ -166,8 +163,7 @@ td {
 .projeto2-titulo {
     margin-left: 0;
     list-style: none;
-    width: 600px;
-    height: 58px;
+    flex-wrap: wrap;
     left: 59px;
     top: 270px;
     font-family: "MalibuBarbie", sans-serif;
@@ -176,7 +172,7 @@ td {
     font-size: 30px;
     line-height: 54px;
     color: #000000;
-    white-space: nowrap;
+   
 }
 
 
@@ -313,3 +309,25 @@ td {
     color: #000000;
     background-color: #e94499;
 }
+@media screen and (max-width: 1321px) {
+    .icone{
+      display: none;
+    }
+    .c1 {
+      flex-wrap: wrap;
+    }
+    
+  }
+  
+
+  
+  
+  @media screen and (max-width: 600px) { 
+    .equipe-toda {
+      display: grid;
+      grid-template-columns: 100% ;
+    }
+    .cabecalho {
+      flex-wrap: wrap;
+    }
+  }
