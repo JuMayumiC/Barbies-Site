@@ -1,4 +1,4 @@
-# Barbie's Robotic 
+# Barbie's Site
 Desenvolvemos este site com o tema da Barbie para adicionarmos os projetos de Robótica nele. 
 
 Linguagens utilizadas: 
