@@ -10,45 +10,46 @@
 }
 
 body {
-    font-family: "Poppins", sans-serif;
-    background-color: #e94499;
+  font-family: "Poppins", sans-serif;
+  background-color: #e94499;
 }
 
 h1 {
-    font-family: "MalibuBarbie", "Poppins", sans-serif;
-    padding-left: 35px;
-    padding-top: 25px;
-    font-size: 55px;
-    font-weight: 500;
-    text-shadow: 5px 5px #ff6eb6;
+  font-family: "MalibuBarbie", "Poppins", sans-serif;
+  padding-left: 35px;
+  padding-top: 25px;
+  font-size: 55px;
+  font-weight: 500;
+  text-shadow: 5px 5px #ff6eb6;
 }
 
 a#logo {
-    color: #fff;
+  color: #fff;
 }
 
 .icone {
-    width: 223px;
-    height: 223px;
-    float: right;
+  width: 223px;
+  height: 223px;
+  float: right;
 }
 
 .cabecalho {
-    text-shadow: #f1005d 1px 1px 1px;
-    display: flex;
-    
-    padding: 0px 0;
-  }
+  text-shadow: #f1005d 1px 1px 1px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 0;
+}
 
 .cabecalho h1 {
-    margin-left: 0px;
-    text-align: justify;
+  margin-left: 0px;
+  text-align: justify;
 }
 
 .cabecalho h1 a {
-    color: #ffffff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
+
 
 .c1 {
     display: flex;
