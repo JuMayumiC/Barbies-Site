@@ -227,36 +227,35 @@ td {
 }
 
 .forms {
-    color: rgb(0, 0, 0);
-    display: block;
-    padding: 0px;
-    margin: 15px;
+  color: rgb(0, 0, 0);
+  display: block;
+  padding: 0px;
+  margin: 15px;
 }
 
 .forms-titulo {
-    margin-left: 0;
-    width: 576px;
-    height: 58px;
-    left: 59px;
-    top: 276px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 45px;
-    line-height: 54px;
-    color: #000000;
+  margin-left: 0;
+  left: 59px;
+  top: 276px;
+  font-family: "MalibuBarbie", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 45px;
+  line-height: 65px;
+  text-shadow: #ff3a99 5px 3px 0px;
+  color: #ffffff;
 }
 
-.forms h2 {
-    background-color: #E2A9EB;
-}
+
 
 .forms-div {
-    margin-top: 20px;
+  margin-top: 20px;
+  display: block;
 }
 
 .forms label {
-    display: block;
-    margin-bottom: 5px;
+  display: block;
+  margin-bottom: 5px;
 }
 
 .forms input[type="text"],
