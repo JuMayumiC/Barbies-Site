@@ -262,30 +262,29 @@ td {
 .forms input[type="text"],
 .forms input[type="email"],
 .forms textarea {
-    width: 25%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #7c003e;
-    border-radius: 4px;
+  width: 25%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #7c003e;
+  border-radius: 4px;
 }
 
 .forms textarea {
-    height: 150px;
+  height: 150px;
 }
 
 .forms input[type="submit"] {
-    background-color: #e076ad;
-    color: #030001;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+  background-color: #e076ad;
+  color: #030001;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .forms input[type="submit"]:hover {
-    background-color: #d80f70;
+  background-color: #ff3a99;
 }
-
 
 .rodape {
     background-color: #e94499;
